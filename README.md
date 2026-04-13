@@ -27,7 +27,6 @@ Para cada parte (lado izquierdo, derecho y dongle):
 
 ### 🔹 Lado izquierdo
 Copia este archivo:
-
 ```eyelash_sofle_peripheral_left nice_view_battery-nice_nano_v2-zmk.uf2```
 
 
@@ -49,4 +48,4 @@ Asegúrate de:
 - Tener una copia de seguridad del firmware original  
 - Confirmar que este firmware es compatible con tu teclado  
 
-
+<img src="keymap-drawer/eyelash_sofle.svg" >
