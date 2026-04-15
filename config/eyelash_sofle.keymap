@@ -94,11 +94,11 @@
 
         layer_2 {
             bindings = <
-&kp ES_MASCULINE_ORDINAL_INDICATOR  &kp ES_FEMININE_ORDINAL_INDICATOR  &kp ES_AT_SIGN    &kp ES_TILDE         &kp ES_HASH              &kp ES_DOLLAR               &mmv MOVE_UP     &kp ES_EQUAL  &kp ES_PERCENT    &kp ES_TILDE  &kp ES_NOT    &trans             &kp ES_UMLAUT
-&kp ES_AMPERSAND                    &kp ES_PIPE                        &kp ES_SLASH      &kp ES_BACKSLASH     &kp ES_LEFT_PARENTHESIS  &kp ES_RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &kp ES_CARET  &kp ES_ASTERISK   &kp ES_GRAVE  &kp ES_ACUTE  &kp ES_SQT         &kp ES_DOUBLE_QUOTES
-&kp ES_INVERTED_EXCLAMATION         &kp ES_EXCLAMATION                 &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &kp ES_LEFT_BRACKET      &kp ES_RIGHT_BRACKET        &mmv MOVE_LEFT   &kp ES_MINUS  &kp ES_PLUS       &trans        &trans        &trans             &trans
-&kp ES_INVERTED_QUESTION            &kp ES_QUESTION                    &trans            &trans               &kp ES_LEFT_BRACE        &kp ES_RIGHT_BRACE          &mmv MOVE_RIGHT  &kp ES_COLON  &kp ES_SEMICOLON  &trans        &trans        &kp ES_UNDERSCORE  &trans
-&trans                              &trans                             &trans            &trans               &trans                   &trans                      &mkp LCLK        &trans        &trans            &trans        &trans        &trans
+&kp ES_MASCULINE_ORDINAL_INDICATOR  &kp ES_FEMININE_ORDINAL_INDICATOR  &kp ES_AT_SIGN    &kp ES_TILDE         &kp ES_HASH              &kp ES_DOLLAR               &mmv MOVE_UP     &kp ES_EQUAL  &kp ES_PERCENT    &kp ES_TILDE                 &kp ES_NOT          &trans             &trans
+&kp ES_AMPERSAND                    &kp ES_PIPE                        &kp ES_SLASH      &kp ES_BACKSLASH     &kp ES_LEFT_PARENTHESIS  &kp ES_RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &kp ES_CARET  &kp ES_ASTERISK   &kp ES_GRAVE                 &kp ES_ACUTE        &kp ES_SQT         &kp ES_DOUBLE_QUOTES
+&trans                              &trans                             &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &kp ES_LEFT_BRACKET      &kp ES_RIGHT_BRACKET        &mmv MOVE_LEFT   &kp ES_MINUS  &kp ES_PLUS       &kp ES_INVERTED_EXCLAMATION  &kp ES_EXCLAMATION  &trans             &kp ES_UMLAUT
+&trans                              &trans                             &trans            &trans               &kp ES_LEFT_BRACE        &kp ES_RIGHT_BRACE          &mmv MOVE_RIGHT  &kp ES_COLON  &kp ES_SEMICOLON  &kp ES_INVERTED_QUESTION     &kp ES_QUESTION     &kp ES_UNDERSCORE  &trans
+&trans                              &trans                             &trans            &trans               &trans                   &trans                      &mkp LCLK        &trans        &trans            &trans                       &trans              &trans
             >;
 
             display-name = "L2";
