@@ -68,11 +68,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC           &kp N1        &kp N2        &kp N3  &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9    &kp N0      &kp BACKSPACE
-&kp TAB           &kp Q         &kp W         &kp E   &kp R      &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O     &kp P       &kp BSLH
-&kp LSHIFT        &kp A         &kp S         &kp D   &kp F      &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L     &kp SEMI    &kp APOS
-&kp LEFT_CONTROL  &kp Z         &kp X         &kp C   &kp V      &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH    &kp ENTER
-&kp C_MUTE        &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE  &kp ENTER    &kp ENTER        &kp ENTER  &kp SPACE  &mo 2      &kp RALT  &kp DELETE
+&kp ESC           &kp N1        &kp N2        &kp N3    &kp N4        &kp N5       &kp UP_ARROW     &kp N6     &kp N7        &kp N8        &kp N9      &kp N0          &kp BACKSPACE
+&kp TAB           &kp ES_Q      &kp ES_W      &kp ES_E  &kp ES_R      &kp ES_T     &kp DOWN_ARROW   &kp ES_Y   &kp ES_U      &kp ES_I      &kp ES_O    &kp ES_P        &kp ES_QUESTION
+&kp LSHIFT        &kp ES_A      &kp ES_S      &kp ES_D  &kp ES_F      &kp ES_G     &kp LEFT_ARROW   &kp ES_H   &kp ES_J      &kp ES_K      &kp ES_L    &kp ES_N_TILDE  &kp ES_ACUTE
+&kp LEFT_CONTROL  &kp ES_Z      &kp ES_X      &kp ES_C  &kp ES_V      &kp ES_B     &kp RIGHT_ARROW  &kp ES_N   &kp ES_M      &kp ES_COMMA  &kp ES_DOT  &kp ES_MINUS    &kp ES_SQT
+&kp C_MUTE        &kp LEFT_GUI  &kp LEFT_ALT  &mo 1     &kp ES_SPACE  &kp ENTER    &kp ENTER        &kp ENTER  &kp ES_SPACE  &mo 2         &kp RALT    &kp DELETE
             >;
 
             display-name = "L0";
@@ -81,11 +81,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1     &kp F2                  &kp F3         &kp F4                   &kp F5      &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10           &kp PRINTSCREEN
-&trans      &kp GRAVE  &mkp LCLK               &mkp MCLK      &mkp RCLK                &mkp MB4    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(D))  &kp LC(LG(RIGHT_ARROW))  &mkp MB5    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &trans     &trans                  &trans         &trans                   &trans      &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans     &trans                  &trans         &trans                   &trans      &mkp LCLK        &trans     &trans    &trans      &trans     &trans
+&kp PRINTSCREEN  &kp F1  &kp F2                  &kp F3         &kp F4                   &kp F5      &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10  &kp F11
+&trans           &trans  &mkp LCLK               &mkp MCLK      &mkp RCLK                &mkp MB4    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &trans   &kp F12
+&trans           &trans  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(D))  &kp LC(LG(RIGHT_ARROW))  &mkp MB5    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &trans   &trans
+&trans           &trans  &trans                  &trans         &trans                   &trans      &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &trans     &trans   &trans
+&kp C_MUTE       &trans  &trans                  &trans         &trans                   &trans      &mkp MCLK        &trans     &trans    &trans      &trans     &trans
             >;
 
             display-name = "L1";
@@ -94,11 +94,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &kp PRINTSCREEN  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans  &trans  &trans  &trans     &trans
-&trans     &trans           &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &trans  &trans  &kp UNDER  &kp PLUS
-&trans     &trans           &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &trans  &trans  &trans  &kp LBRC   &kp RBRC
-&trans     &trans           &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans     &trans
-&trans     &trans           &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans  &trans  &trans  &trans
+&kp ES_MASCULINE_ORDINAL_INDICATOR  &kp ES_FEMININE_ORDINAL_INDICATOR  &kp ES_AT_SIGN    &kp ES_TILDE         &kp ES_HASH              &kp ES_DOLLAR               &mmv MOVE_UP     &kp ES_EQUAL  &kp ES_PERCENT    &kp ES_TILDE  &kp ES_NOT    &trans             &kp ES_UMLAUT
+&kp ES_AMPERSAND                    &kp ES_PIPE                        &kp ES_SLASH      &kp ES_BACKSLASH     &kp ES_LEFT_PARENTHESIS  &kp ES_RIGHT_PARENTHESIS    &mmv MOVE_DOWN   &kp ES_CARET  &kp ES_ASTERISK   &kp ES_GRAVE  &kp ES_ACUTE  &kp ES_SQT         &kp ES_DOUBLE_QUOTES
+&kp ES_INVERTED_EXCLAMATION         &kp ES_EXCLAMATION                 &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &kp ES_LEFT_BRACKET      &kp ES_RIGHT_BRACKET        &mmv MOVE_LEFT   &kp ES_MINUS  &kp ES_PLUS       &trans        &trans        &trans             &trans
+&kp ES_INVERTED_QUESTION            &kp ES_QUESTION                    &trans            &trans               &kp ES_LEFT_BRACE        &kp ES_RIGHT_BRACE          &mmv MOVE_RIGHT  &kp ES_COLON  &kp ES_SEMICOLON  &trans        &trans        &kp ES_UNDERSCORE  &trans
+&trans                              &trans                             &trans            &trans               &trans                   &trans                      &mkp LCLK        &trans        &trans            &trans        &trans        &trans
             >;
 
             display-name = "L2";
